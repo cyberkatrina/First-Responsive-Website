@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: rgb(88, 184, 152);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+section {
+  flex: 1;
+  border: solid 2pt black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  font-size: 40pt;
+  color: white;
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  padding: 20pt;
+  margin: 20pt;
+  align-items: center;
+}
+
+section div p {
+  text-align: center;
+}
+
+.color1 {
+  background-color: blue;
+  width: 80pt;
+  height: 10pt;
+}
+
+.color2 {
+  background-color: orange;
+  width: 80pt;
+  height: 10pt;
+}
+
+.color3 {
+  background-color: green;
+  width: 80pt;
+  height: 10pt;
+}
+
+
