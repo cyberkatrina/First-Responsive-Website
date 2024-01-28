@@ -8,29 +8,33 @@ body {
 
 section {
   flex: 1;
-  border: solid 2pt black;
+  /* border: solid 2pt black; */
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 
 .top {
-  font-size: 40pt;
+  font-size: 70px;
   color: white;
   display: flex;
+  align-items: center;
 }
 
 .bottom {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
 }
 
 section div {
   display: flex;
   flex-direction: column;
-  padding: 20pt;
-  margin: 20pt;
+  padding: 50px;
   align-items: center;
+  width: 220px;
 }
 
 section div p {
@@ -38,21 +42,56 @@ section div p {
 }
 
 .color1 {
-  background-color: blue;
-  width: 80pt;
-  height: 10pt;
+  background-color: rgb(85, 142, 246);
+  width: 200px;
+  height: 30px;
+  padding: 0;
 }
 
 .color2 {
-  background-color: orange;
-  width: 80pt;
-  height: 10pt;
+  background-color: rgb(237, 131, 38);
+  width: 200px;
+  height: 30px;
+  padding: 0;
 }
 
 .color3 {
-  background-color: green;
-  width: 80pt;
-  height: 10pt;
+  background-color: rgb(88, 184, 152);
+  width: 200px;
+  height: 30px;
+  padding: 0;
 }
 
+h1 {
+  margin: 0;
+}
 
+.titles {
+  font-size: 24pt;
+  padding-top: 7pt;
+}
+
+@media (max-width: 992px) { 
+  body {
+    background-color:cornflowerblue;
+  }
+
+  .bottom {
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top span {
+    width: 180pt;
+    padding: 70px;
+    font-size: 50px;
+  }
+
+  section div {
+    padding: 30px;
+  }
+
+}
+  
